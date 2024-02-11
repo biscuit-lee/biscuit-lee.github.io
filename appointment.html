@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>  MARCO  </title>
+		
+				<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="style.css">
+	
+	</head>
+	
+	
+	
+	
+	
+	
+	<body>
+		
+		
+		<div class= "container-fluid main-header-container">		
+			
+		<!--middle banner/navbar-->
+			<div class="row header1">
+				<div class="row container-fluid two">
+					<div class="col-sm-4 favlogo">
+						<img src="bilder/logo.svg" alt="acer logo" class="logo-img">
+					</div>
+					
+		
+					<!-- navbar-->
+
+		
+					<div class="col-sm-7">
+						<div class="navbar">
+							
+							<button onclick="dropFunc()" class="dropbtn">For Home</button>
+							<button onclick="dropFunc()" class="dropbtn">For Work</button>
+							<button onclick="dropFunc()" class="dropbtn">Support</button>
+							
+						</div>
+					</div>	
+						
+					<div class="col-sm-1">
+						<button onclick="" class="book"> BOOK </button>
+					</div>
+				</div>
+				
+				
+				
+				<!--ndean halften av menyn där book knapp står -->
+				
+				<div class="row three">
+					<div class="col">
+						
+					</div>
+					
+				</div>
+				
+				
+				<!--drop down content -->
+				<div id="dropCon" class="dropContent">
+					<div class="col-lg-4 col-xl-4 col-sm-12 drop1">
+						<a href="#"> EpicLaptop1 </a>
+					</div>
+					
+					<div class="col-lg-4 col-xl-4 col-sm-12 drop2">
+						<a href="#"> EpicLaptop2 </a>
+					</div>
+					
+					<div class="col-lg-4 col-sm-12 col-xl-4 drop3">
+						<a href="#"> EpicLaptop3 </a>
+					</div>
+				</div>
+				
+
+				
+				
+			</div>
+			
+
+			
+
+		</div>
+	
+			
+
+		
+		
+		
+		
+		
+		
+		
+		<!----------------- appointment !-->
+		
+		
+		<div class= container-fluid formCon>
+			
+			<form class="form">
+				<fieldset class="field1">
+					<legend> Appointment  </legend>
+					
+					<label for="style"> Choose what you want: </label> <br>
+					
+					
+					<!--skapa lådor för alla val-->
+					
+					
+					 <fieldset class="field2">
+						<input type="radio" id="haircut" name="haircut">
+						<label for="haircut"> Haircut </label> <br><br>
+					</fieldset>
+					
+					<fieldset class="field2">
+						<input type="radio" id="nail" name="nail">
+						<label for="haircut"> Manicure </label> <br><br>
+					</fieldset>
+					
+					<fieldset class="field2">
+						<input type="radio" id="hairwash" name="hairwash"> 
+						<label for="hairwash"> Hairdressing </label> <br> <br>
+					</fieldset>
+					<br> <br>
+					
+					
+
+						
+				</fieldset>	
+
+				<!-- tid-->
+					
+				<fieldset class = "field1">
+					<label for="time"> Time: </label> <br>
+					<input type="date" id="date" name="date">
+					
+					<input type="time" id="time" name="time"><br><br>
+				</fieldset>
+				
+
+
+					<!-- payment-->
+				<fieldset class="field1">
+					<label for="payment"> Payment </label><br><br>
+					
+					<label for="fname"> First name:  </label> 
+					<input type="text" id="fname" name="fname"> 
+					
+					<label for="lname">  Last name:  </label> 
+					<input type="text" id="lname" name="lname"> <br> <br>
+					
+					<label for="credit"> CCV   : 	 </label> 
+					<input type="number" id="credit" name="credit"> <br> <br>
+					
+					
+				</fieldset>
+					
+				
+				
+				
+			</form>
+			
+			
+		</div>
+		
+	</body>
+
+
+
+</html>
